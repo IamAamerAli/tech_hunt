@@ -25,7 +25,7 @@ def register(request):
 #         if user_info_form.is_valid():
 #             user_info_username = user_info_form.cleaned_data.get('name')
 #             messages.success(request, f'Details are saved {user_info_username} !')
-#             return redirect('home-blog')
+#             return redirect('blog-home')
 #     else:
 #         user_info_form = UserInformation()
 #     return render(request, 'users/userinfo.html', {'user_info_form': user_info_form})
